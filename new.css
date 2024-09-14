@@ -1,0 +1,40 @@
+    
+     body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+        background-color: #6779f0;
+        background-repeat:no-repeat;
+        background-size:cover;
+    }
+    
+    .button-container {
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .but {
+        background-color:darkslategray;
+        color: white;
+        padding: 10px 15px;
+        margin: 5px;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;   
+    }
+    
+    button:hover {
+        background-color: #756dea;
+    }
+    .table-success{
+        text-align: center;
+        font-weight: 900;
+        
+    }
+    
+    /*.table>:not(caption)>*>*{
+        background: transparent;
+    }
+    
+   
+    
