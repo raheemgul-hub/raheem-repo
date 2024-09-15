@@ -12,7 +12,26 @@
         display: flex;
         justify-content: space-around;
     }
-    
+    .heading,.heading1,.heading2{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .heading1{
+        color: rgb(13, 62, 43);
+        font-size: 50px;
+        text-align: center;
+        
+        font-weight: 900;
+    }
+    .heading2{
+        color: rgb(5, 3, 0);
+        text-align: center;
+        margin-bottom: 60px;
+        margin-top: 60px;
+        font-weight: 900;
+        font-family: monospace;
+    }
+
     .but {
         background-color:darkslategray;
         color: white;
