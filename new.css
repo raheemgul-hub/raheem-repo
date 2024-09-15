@@ -22,14 +22,61 @@
         cursor: pointer;
         border-radius: 5px;   
     }
-    
+    .container button
+    {
+        width: 131px;
+        margin: 0px;
+        border-radius: 30px;
+        border-top-left-radius: 0px;
+        border-bottom-left-radius: 0px;
+    }
+    .button .icon 
+    {
+        color: darkslategray;
+        font-size: 25px;
+        background-color: #ddd;
+        display: flex;
+        align-items: center;
+        width: 50px;
+        height: 44px;
+        border-radius: 30px;
+        justify-content: center;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+    }
+    .button-containor
+    {
+        flex-wrap: wrap;
+        display: flex;
+        flex-direction: row;
+    }
+    .button
+    {
+        margin-right: 34px;
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+.button-last
+{
+    margin-right: 75px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.button-last button
+{
+    width: 180px;
+    margin: 0px;
+    border-radius: 30px;
+}
     button:hover {
         background-color: #756dea;
     }
     .table-success{
         text-align: center;
-        font-weight: 900;
-        
+        font-weight: 900; 
     }
     
     /*.table>:not(caption)>*>*{
